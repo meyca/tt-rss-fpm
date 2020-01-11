@@ -30,7 +30,7 @@ RUN set -ex; \
         git \
     ; \
     \
-    docker-php-ext-configure gd --with-freetype-dir=/usr --with-png-dir=/usr --with-jpeg-dir=/usr; \
+    docker-php-ext-configure gd --with-freetype --with-jpeg; \
     docker-php-ext-install \
         curl \
         fileinfo \
