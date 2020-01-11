@@ -25,7 +25,7 @@ RUN set -ex; \
         libpng-dev \
         libxml2-dev \
         libzip-dev \
-        onigurama-dev \
+        oniguruma-dev \
         pcre-dev \
         postgresql-dev \
         git \
