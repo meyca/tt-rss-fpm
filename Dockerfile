@@ -1,6 +1,9 @@
 # file based on example from nextcloud.com
 FROM php:fpm-alpine
 
+# latest commit hash from master @ git.tt-rss-org
+ENV tt-rss-container-version "5fc499e19e"
+
 # entrypoint.sh and cron.sh dependencies
 RUN set -ex; \
     \
