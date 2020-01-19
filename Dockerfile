@@ -2,7 +2,7 @@
 FROM php:fpm-alpine
 
 # latest commit hash from master @ git.tt-rss-org
-ENV tt-rss-container-version "5fc499e19e"
+ENV tt-rss-container-version "3b29e865b0"
 
 # entrypoint.sh and cron.sh dependencies
 RUN set -ex; \
