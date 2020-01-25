@@ -109,5 +109,4 @@ server {
         deny  all;
     }
 }
-
 ```
