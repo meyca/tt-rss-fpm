@@ -4,6 +4,11 @@ App from tt-rss.org
 
 Docker container to be used in conjunction with a proxy container (like nginx)
 
+# DISCONTINUED
+
+This Dockerfile will not be updated anymore. An alternative is available at
+<https://git.tt-rss.org/fox/ttrss-docker-compose/src/static-dockerhub>
+
 example docker-compose.yml:
 
 ```docker-compose
